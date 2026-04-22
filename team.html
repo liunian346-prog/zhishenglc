@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team & Portfolio | Zhisheng Longcheng</title>
-    <meta name="description" content="Meet the elite team at Zhisheng Longcheng, featuring experts from Microsoft, Tesla, and Oracle, and explore our successful mobile project instances.">
+    <title>Elite Team & Heritage | ZHISHENG - Global Tech Leaders</title>
+    <meta name="description" content="Meet the industry veterans behind ZHISHENG. Built by senior talent from Microsoft, Tesla, and Oracle. Discover our culture of technical mastery.">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Elite Team & Heritage | ZHISHENG">
+    <meta property="og:description" content="The powerhouse of expertise behind global mobile success.">
+    <meta property="og:image" content="svg/logo.svg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="svg/logo.svg">
 </head>
-<body>
-    <header>
+<body style="background-color: var(--white);">
+    <header id="main-header">
         <nav class="container">
             <div class="logo">
                 <a href="index.html">
-                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M50 5L10 25V75L50 95L90 75V25L50 5Z" fill="#008060"/><path d="M50 20L30 30V70L50 80L70 70V30L50 20Z" fill="white"/></svg>
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M50 5L10 25V75L50 95L90 75V25L50 5Z" fill="#008060"/><path d="M50 20L30 30V70L50 80L70 70V30L50 20Z" fill="white"/></svg>
                     <span>ZHISHENG</span>
                 </a>
             </div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="business.html">Services</a></li>
+                <li><a href="cases.html">Portfolio</a></li>
                 <li><a href="team.html" class="active">Our Team</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="header-cta">
                 <a href="contact.html" class="btn">Get Started</a>
@@ -29,53 +46,101 @@
     </header>
 
     <main>
-        <section class="team-hero container">
-            <div class="section-header">
-                <h1>Elite Talent Driving Innovation</h1>
-                <p>Our team is composed of industry veterans who have shaped the tech landscape at the world's leading companies.</p>
+        <!-- Page Hero -->
+        <section class="page-hero container reveal" style="padding: 120px 20px 80px; text-align: center;">
+            <span class="label" style="margin: 0 auto 20px;">The Backbone</span>
+            <h1 class="hero-title" style="margin: 0 auto 30px; font-size: 5rem; line-height: 1;">Elite<span>Talent</span></h1>
+            <p class="hero-subtitle" style="max-width: 700px; margin: 0 auto; color: var(--gray-medium); font-size: 1.25rem;">A global collective of senior architects, growth hackers, and visionaries unified by a mission to redefine mobile excellence.</p>
+        </section>
+
+        <!-- Partner Wall / Heritage -->
+        <section class="partner-wall container reveal" style="padding: 80px 20px; background: #fdfdfd; border-radius: 40px; border: 1px solid #eee; margin-bottom: 120px; text-align: center;">
+            <span class="label">Our Heritage</span>
+            <h2 style="margin-bottom: 50px; font-size: 1.5rem; opacity: 0.6;">Expertise Borne from Tech Capitals</h2>
+            <div class="grid-4" style="align-items: center; opacity: 0.4; filter: grayscale(1);">
+                <div style="font-weight: 900; font-size: 2rem; letter-spacing: -1px;">Microsoft</div>
+                <div style="font-weight: 900; font-size: 2rem; letter-spacing: -1px;">Tesla</div>
+                <div style="font-weight: 900; font-size: 2rem; letter-spacing: -1px;">Oracle</div>
+                <div style="font-weight: 900; font-size: 2rem; letter-spacing: -1px;">Amazon</div>
             </div>
-            <div class="grid-3">
-                <div class="card member-card">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+        </section>
+
+        <!-- Team Members Section -->
+        <section class="team-members container" style="padding-bottom: 120px;">
+            <div class="section-header reveal">
+                <span class="label">Leadership</span>
+                <h2>Meet the Core Architects</h2>
+            </div>
+            <div class="grid-3" style="margin-top: 60px; gap: 60px;">
+                <!-- Member 1 -->
+                <div class="card reveal" style="padding: 0; background: none; border: none; text-align: center;">
+                    <div style="aspect-ratio: 4/5; background: #f0f4f2; border-radius: 24px; margin-bottom: 25px; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #eee; position: relative;">
+                         <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="0.5" opacity="0.1" style="position: absolute;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"/></svg>
+                         <div style="font-weight: 900; font-size: 5rem; color: var(--primary-color); opacity: 0.05;">MA</div>
                     </div>
-                    <h3>Technical Excellence</h3>
-                    <p>Our R&D center is led by architects from <strong>Microsoft</strong> and <strong>Oracle</strong>, bringing enterprise-grade stability to mobile development.</p>
+                    <h3 style="margin-bottom: 5px; font-size: 1.6rem;">Marcus Chen</h3>
+                    <p style="color: var(--primary-color); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;">Chief Technical Officer | Ex-Microsoft</p>
+                    <p style="font-size: 14px; color: var(--gray-medium); margin-top: 15px; line-height: 1.6; padding: 0 10px;">15+ years experience in cloud-scale infrastructure. Marcus led the migration of high-concurrency utility platforms serving 50M+ users.</p>
                 </div>
-                <div class="card member-card">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                <!-- Member 2 -->
+                <div class="card reveal" style="padding: 0; background: none; border: none; text-align: center;">
+                    <div style="aspect-ratio: 4/5; background: #f0f4f2; border-radius: 24px; margin-bottom: 25px; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #eee; position: relative;">
+                         <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="0.5" opacity="0.1" style="position: absolute;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"/></svg>
+                         <div style="font-weight: 900; font-size: 5rem; color: var(--primary-color); opacity: 0.05;">EL</div>
                     </div>
-                    <h3>Operational Expertise</h3>
-                    <p>Strategists from high-growth environments like <strong>Tesla</strong> manage our operations, ensuring global reach and localized efficiency.</p>
+                    <h3 style="margin-bottom: 5px; font-size: 1.6rem;">Elena Vogt</h3>
+                    <p style="color: var(--primary-color); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;">Head of UX Strategy | Ex-Tesla</p>
+                    <p style="font-size: 14px; color: var(--gray-medium); margin-top: 15px; line-height: 1.6; padding: 0 10px;">Elena specializes in high-performance interface design and frictionless user journeys, bringing automotive-grade precision to mobile.</p>
                 </div>
-                <div class="card member-card">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <!-- Member 3 -->
+                <div class="card reveal" style="padding: 0; background: none; border: none; text-align: center;">
+                    <div style="aspect-ratio: 4/5; background: #f0f4f2; border-radius: 24px; margin-bottom: 25px; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #eee; position: relative;">
+                         <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="0.5" opacity="0.1" style="position: absolute;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"/></svg>
+                         <div style="font-weight: 900; font-size: 5rem; color: var(--primary-color); opacity: 0.05;">DW</div>
                     </div>
-                    <h3>Business Interaction</h3>
-                    <p>Dedicated professionals bridging the gap between complex technology and diverse user needs across the globe.</p>
+                    <h3 style="margin-bottom: 5px; font-size: 1.6rem;">David Wu</h3>
+                    <p style="color: var(--primary-color); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;">Chief Data Scientist | Ex-Oracle</p>
+                    <p style="font-size: 14px; color: var(--gray-medium); margin-top: 15px; line-height: 1.6; padding: 0 10px;">A master of predictive analytics and monetization frameworks. David's models drive our real-time ad mediation and subscription engines.</p>
                 </div>
             </div>
         </section>
 
-        <section class="instances container" style="background-color: #f6f6f7; border-radius: 12px;">
-            <div class="section-header">
-                <h2>Project Instances</h2>
-                <p>Real-world examples of our technical and operational impact.</p>
+        <!-- Honors & Certifications -->
+        <section class="honors container reveal" style="padding: 100px 20px; background: #f8f9fa; border-radius: 40px; margin-bottom: 120px;">
+            <div class="section-header" style="text-align: center;">
+                <span class="label">Recognition</span>
+                <h2>Global Industry Standards</h2>
             </div>
-            <div class="grid-3">
-                <div class="card" style="background-color: white;">
-                    <h3>Global Utility Suite</h3>
-                    <p>A self-developed collection of utility apps featuring VIP subscriptions and advanced feature monetization, serving millions worldwide.</p>
+            <div class="grid-3" style="margin-top: 60px;">
+                <div class="card reveal" style="text-align: center; background: white; padding: 40px; border-radius: 24px;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">🏆</div>
+                    <h4 style="margin-bottom: 10px;">AWS Select Partner</h4>
+                    <p style="font-size: 13px; color: var(--gray-medium); line-height: 1.6;">Recognized for our excellence in cloud-native deployment and global server scalability.</p>
                 </div>
-                <div class="card" style="background-color: white;">
-                    <h3>Immersive Mobile Games</h3>
-                    <p>Custom-developed gaming experiences with intricate prop economies and optimized ad变现 strategies.</p>
+                <div class="card reveal" style="text-align: center; background: white; padding: 40px; border-radius: 24px;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">🛡️</div>
+                    <h4 style="margin-bottom: 10px;">GDPR & CCPA Verified</h4>
+                    <p style="font-size: 13px; color: var(--gray-medium); line-height: 1.6;">Full compliance with the world's most stringent data protection and privacy standards.</p>
                 </div>
-                <div class="card" style="background-color: white;">
-                    <h3>Enterprise Mobility</h3>
-                    <p>Robust mobile frameworks developed for external partners, focusing on data security and high-concurrency performance.</p>
+                <div class="card reveal" style="text-align: center; background: white; padding: 40px; border-radius: 24px;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">🥇</div>
+                    <h4 style="margin-bottom: 10px;">Google Play Top Team</h4>
+                    <p style="font-size: 13px; color: var(--gray-medium); line-height: 1.6;">Consistently ranked for technical performance and UI/UX innovation in global store features.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hiring Section -->
+        <section class="hiring container reveal" style="padding-bottom: 120px;">
+            <div class="grid-2" style="background: var(--primary-color); border-radius: 32px; padding: 80px 60px; color: white; align-items: center; gap: 60px;">
+                <div>
+                    <span class="label" style="color: white; opacity: 0.7;">Careers</span>
+                    <h2 style="color: white; font-size: 3.5rem; margin-top: 10px;">Build the future with us.</h2>
+                    <p style="color: rgba(255,255,255,0.85); font-size: 1.15rem; margin-top: 25px; line-height: 1.7;">We are always looking for senior architects, growth-oriented project managers, and creative visionaries to join our global elite team.</p>
+                </div>
+                <div style="text-align: right;">
+                    <a href="mailto:liunian@zhishenglc.com" class="btn" style="background: white; color: var(--primary-color); padding: 25px 60px; font-size: 1.2rem; border-radius: 50px;">Join the Studio</a>
+                    <p style="margin-top: 20px; font-size: 14px; opacity: 0.8;">Open Positions: 12 (Beijing / Remote)</p>
                 </div>
             </div>
         </section>
@@ -83,14 +148,42 @@
 
     <footer>
         <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="fill: white;" aria-hidden="true"><path d="M50 5L10 25V75L50 95L90 75V25L50 5Z"/></svg>
+                        <span style="color: white; font-weight: 800; font-size: 20px; margin-left: 10px;">ZHISHENG</span>
+                    </div>
+                    <p style="margin-top: 20px; color: #b0c4c3;">Elite Global Mobile App & Game Service Provider. Engineering the future of digital interaction.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Studio</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="business.html">Services</a></li>
+                        <li><a href="cases.html">Portfolio</a></li>
+                        <li><a href="team.html" class="active">Our Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Address</h4>
+                    <p style="font-size: 13px; color: #b0c4c3; line-height: 1.6;">4B06, 4/F, Bldg C3, World Flower Holiday Plaza, Jiujingzhuang Road, Beijing ETDZ, China</p>
+                </div>
+            </div>
             <div class="footer-bottom">
                 <p>&copy; 2023 Beijing Zhishenglongcheng Information Technology Co., Ltd. All rights reserved.</p>
-                <div class="footer-legal">
-                    <a href="privacy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms of Service</a>
-                </div>
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

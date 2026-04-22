@@ -3,94 +3,387 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zhisheng Longcheng | Global Mobile App & Game Services</title>
-    <meta name="description" content="Beijing Zhishenglongcheng Information Technology Co., Ltd. provides world-class mobile app and game development, operations, and publishing services. Founded by veterans from Microsoft, Tesla, and Oracle.">
-    <meta name="keywords" content="Mobile App Development, Game Publishing, Mobile Game Operations, Zhisheng Longcheng, Global IT Services, Microsoft, Tesla, Oracle">
+    <title>ZHISHENG | Global Elite Mobile App & Game Service Provider</title>
+    <meta name="description" content="Beijing Zhishenglongcheng (ZHISHENG) is a premier technology team providing global mobile app and game development, operations, and publishing services. Managed by senior veterans from Microsoft, Tesla, and Oracle.">
+    <meta name="keywords" content="Mobile Development, Global Operations, Game Publishing, Microsoft Tesla Oracle Alumni, App Monetization, ZHISHENG, Mobile Game Studio, App R&D, Technical Architecture, Global UA">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zhishenglc.com/">
+    <meta property="og:title" content="ZHISHENG | Global Mobile App & Game Excellence">
+    <meta property="og:description" content="Elite engineering and strategic operations for the global mobile ecosystem. Built by veterans from Microsoft, Tesla, and Oracle.">
+    <meta property="og:image" content="https://zhishenglc.com/svg/logo.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://zhishenglc.com/">
+    <meta property="twitter:title" content="ZHISHENG | Global Mobile App & Game Excellence">
+    <meta property="twitter:description" content="Elite engineering and strategic operations for the global mobile ecosystem. Built by veterans from Microsoft, Tesla, and Oracle.">
+    <meta property="twitter:image" content="https://zhishenglc.com/svg/logo.svg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="svg/logo.svg">
+    <link rel="alternate icon" href="favicon.ico">
+
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Beijing Zhishenglongcheng Information Technology Co., Ltd.",
+      "alternateName": "ZHISHENG",
+      "url": "https://zhishenglc.com",
+      "logo": "https://zhishenglc.com/svg/logo.svg",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "email": "liunian@zhishenglc.com",
+          "contactType": "sales",
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "ContactPoint",
+          "email": "support@zhishenglc.com",
+          "contactType": "technical support",
+          "areaServed": "Worldwide"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4B06, 4/F, Bldg C3, World Flower Holiday Plaza, Jiujingzhuang Road, Jiugong Town, (Daxing), Beijing ETDZ",
+        "addressLocality": "Beijing",
+        "addressCountry": "CN"
+      }
+    }
+    </script>
 </head>
 <body>
-    <header>
+    <header id="main-header">
         <nav class="container">
             <div class="logo">
                 <a href="index.html">
-                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M50 5L10 25V75L50 95L90 75V25L50 5Z" fill="#008060"/><path d="M50 20L30 30V70L50 80L70 70V30L50 20Z" fill="white"/></svg>
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M50 5L10 25V75L50 95L90 75V25L50 5Z" fill="#008060"/><path d="M50 20L30 30V70L50 80L70 70V30L50 20Z" fill="white"/></svg>
                     <span>ZHISHENG</span>
                 </a>
             </div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="business.html">Services</a></li>
+                <li><a href="cases.html">Portfolio</a></li>
                 <li><a href="team.html">Our Team</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="header-cta">
-                <a href="contact.html" class="btn">Get Started</a>
+                <a href="contact.html" class="btn">Collaborate Now</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
+        <!-- 1. Hero Section -->
+        <section class="hero reveal">
             <div class="container">
                 <div class="hero-content">
-                    <h1>Your Global Partner for Mobile Excellence.</h1>
-                    <p>We provide professional mobile application and game services to users at different levels, driven by technical innovation and operational expertise.</p>
-                    <div class="hero-cta">
-                        <a href="business.html" class="btn">Explore Our Services</a>
+                    <h1 class="hero-title">Innovating<span>Global</span>Mobile Excellence.</h1>
+                    <p class="hero-subtitle">Beijing Zhishenglongcheng Information Technology Co., Ltd. (ZHISHENG) is a world-class technology collective specializing in high-end mobile applications and immersive gaming experiences. Our mission is to bridge the gap between Silicon Valley engineering standards and the dynamic demands of global localized markets. By integrating elite R&D, data-driven operations, and professional business interaction, we deliver unmatched growth for our partners and proprietary projects alike. We believe that true digital excellence is achieved through the synergy of technical mastery, aesthetic precision, and cultural intelligence. From day one, we build for the world, ensuring every line of code and every marketing campaign is optimized for global scalability. Join us as we redefine the boundaries of mobile entertainment and utility software on an international scale, powered by a team of dedicated visionaries who have helped shape the modern digital landscape.</p>
+                    <div class="hero-btns">
+                        <a href="business.html" class="btn">Explore Our Solutions</a>
+                        <a href="cases.html" class="btn-outline">View Success Stories</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="intro container">
+        <!-- 2. Impact & Stats Section -->
+        <section class="stats container reveal">
             <div class="section-header">
-                <h2>Built by Industry Veterans</h2>
-                <p>Our team is composed of seasoned professionals from world-renowned technology companies.</p>
+                <span class="label">Impact & Reach</span>
+                <h2>Measurable Global Performance</h2>
+                <p style="max-width: 900px; margin: 20px auto; line-height: 1.8;">Our operational footprint spans continents, delivering high-performance digital solutions to millions of users across diverse demographics. We leverage real-time data science and advanced cloud infrastructures to ensure every project in our ecosystem achieves maximum efficiency and user satisfaction. Our success is rooted in our ability to translate complex data into actionable growth strategies, maintaining 99.9% operational stability even during peak traffic periods. From the most competitive markets in North America to the rapidly evolving landscapes of Southeast Asia and the Middle East, our metrics reflect a consistent commitment to technical excellence and long-term sustainable growth for all stakeholders involved. We don't just measure clicks; we measure value, longevity, and true user resonance in a saturated digital world, ensuring our partners always stay ahead of the curve.</p>
             </div>
-            <div class="grid-3">
-                <div class="card">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                    </div>
-                    <h3>Microsoft Heritage</h3>
-                    <p>Engineers and architects with experience in building scalable enterprise solutions.</p>
+            <div class="grid-4">
+                <div class="stat-item reveal">
+                    <div class="stat-num">10M+</div>
+                    <div class="stat-label">Global Active Users</div>
+                    <p style="font-size: 14px; margin-top: 10px; color: var(--gray-medium);">Our reach extends to a massive, engaged user base that interacts with our products daily, providing a robust foundation for continuous data refinement and monetization testing across multiple time zones and cultures.</p>
                 </div>
-                <div class="card">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-                    </div>
-                    <h3>Tesla Innovation</h3>
-                    <p>Designers and product experts focused on cutting-edge user experiences and performance.</p>
+                <div class="stat-item reveal">
+                    <div class="stat-num">50+</div>
+                    <div class="stat-label">Premium Projects</div>
+                    <p style="font-size: 14px; margin-top: 10px; color: var(--gray-medium);">We have successfully developed and launched a wide range of utility and gaming projects, each tailored to meet specific market needs and performance benchmarks with high-fidelity execution and technical rigor.</p>
                 </div>
-                <div class="card">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                <div class="stat-item reveal">
+                    <div class="stat-num">150+</div>
+                    <div class="stat-label">Regions Covered</div>
+                    <p style="font-size: 14px; margin-top: 10px; color: var(--gray-medium);">Our localized operations ensure compliance and cultural resonance across 150+ countries, allowing us to scale projects with unprecedented geographic speed and full regulatory safety across global app stores.</p>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-num">24/7</div>
+                    <div class="stat-label">Operational Stability</div>
+                    <p style="font-size: 14px; margin-top: 10px; color: var(--gray-medium);">Our technical and support teams operate round-the-clock, ensuring that our infrastructure remains resilient, responsive, and secure against any global traffic spike, technical challenge, or malicious threat.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 60px;">
+                <a href="contact.html" class="cta-button">Partner with Us Today</a>
+            </div>
+        </section>
+
+        <!-- 3. Pedigree Showcase (Elite Trust Factors) -->
+        <section class="pedigree-showcase container reveal" style="background: #002e25; color: white; border-radius: 40px; padding: 100px 5vw; margin: 80px auto;">
+            <div class="grid-2" style="align-items: center; gap: 80px;">
+                <div>
+                    <span class="label" style="color: var(--primary-color);">Our Pedigree</span>
+                    <h2 style="color: white; font-size: 3.5rem; letter-spacing: -2px;">Engineered by Industry Giants.</h2>
+                    <p style="color: #b0c4c3; font-size: 1.15rem; margin-top: 30px; line-height: 1.8;">The ZHISHENG foundation is built on decades of collective experience from the world's most influential technology hubs. Our core team consists of "大佬级" (Elite) figures previously holding senior leadership and architectural roles at top-tier innovators like Microsoft, Tesla, and Oracle. We don't just hire talent; we are built by the same visionaries who helped shape the modern digital landscape. We bring a culture of technical mastery, automotive-grade precision, and enterprise-level reliability to every single mobile product we develop and manage. This elite heritage allows us to foresee technical hurdles and market shifts before they occur, giving our partners a significant competitive advantage in the global mobile ecosystem. We combine the agility of a specialized studio with the engineering standards of Fortune 500 tech giants to deliver robust, future-proof solutions that stand the test of time and provide consistent commercial value.</p>
+                    <a href="team.html" class="btn" style="margin-top: 40px; background: var(--primary-color); border: none; padding: 18px 45px;">Meet Our Leadership Team</a>
+                </div>
+                <div class="pedigree-details" style="display: grid; grid-template-columns: 1fr; gap: 24px;">
+                    <div class="card reveal" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; transition: var(--transition-base);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                            <span style="font-weight: 900; font-size: 1.8rem; color: var(--primary-color); letter-spacing: -1px;">Microsoft</span>
+                            <span style="font-size: 12px; color: #b0c4c3; text-transform: uppercase;">Cloud Scale Mastery</span>
+                        </div>
+                        <p style="color: #b0c4c3; font-size: 15px; margin: 0; line-height: 1.7;">Our technical architecture is designed and overseen by ex-Microsoft cloud architects with over 15 years of experience in distributed systems. We implement enterprise-grade serverless frameworks, high-concurrency Go backends, and robust Azure/AWS multi-region integrations. This expertise ensures that every project we touch is built on a foundation that can seamlessly handle millions of real-time requests with industry-leading security and zero-latency overhead, regardless of the user's location.</p>
                     </div>
-                    <h3>Oracle Reliability</h3>
-                    <p>Experts in data management and robust backend infrastructure for global operations.</p>
+                    <div class="card reveal" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; transition: var(--transition-base);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                            <span style="font-weight: 900; font-size: 1.8rem; color: var(--primary-color); letter-spacing: -1px;">Tesla</span>
+                            <span style="font-size: 12px; color: #b0c4c3; text-transform: uppercase;">Product Precision</span>
+                        </div>
+                        <p style="color: #b0c4c3; font-size: 15px; margin: 0; line-height: 1.7;">Led by ex-Tesla senior product designers, our UX team applies frictionless interface philosophies to the mobile world. We focus on low-cognitive load, high-performance interactions, and sensory-driven digital design. By treating user experience with the same precision as high-performance automotive engineering, we create products that not only function perfectly but also captivate and retain users through sheer intuitive quality and aesthetic excellence.</p>
+                    </div>
+                    <div class="card reveal" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; transition: var(--transition-base);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                            <span style="font-weight: 900; font-size: 1.8rem; color: var(--primary-color); letter-spacing: -1px;">Oracle</span>
+                            <span style="font-size: 12px; color: #b0c4c3; text-transform: uppercase;">Data Intelligence</span>
+                        </div>
+                        <p style="color: #b0c4c3; font-size: 15px; margin: 0; line-height: 1.7;">Our data backbone is managed by senior database scientists from Oracle. We utilize real-time stream processing, predictive LTV (Life-Time Value) modeling, and complex fraud detection systems. This allows us to optimize monetization frameworks and user acquisition campaigns with surgical accuracy, ensuring that every dollar spent on growth delivers the maximum possible return for our partners through deep behavioral insights.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="business-overview container" style="background-color: #f6f6f7; border-radius: 12px;">
+        <!-- 4. Deep Service Methodology (Expandable Lists) -->
+        <section class="values container reveal">
             <div class="section-header">
-                <h2>Our Business Models</h2>
-                <p>Providing end-to-end solutions for mobile applications and games.</p>
+                <span class="label">Strategic Operations</span>
+                <h2>Integrated Global Ecosystem</h2>
+                <p style="max-width: 900px; margin: 20px auto; line-height: 1.8;">ZHISHENG operates as a unified force of specialized strategic centers. We provide 360-degree support for mobile projects, from initial concept validation and R&D to global market dominance and monetization scaling. Our methodology is built on radical transparency, where live data drives every decision and technical mastery ensures every outcome. We believe in building long-term value through sustainable digital ecosystems, rather than short-term gains. By combining elite R&D with world-class operational science, we offer a partnership model that is truly unique in the mobile industry. We don't just deliver code; we deliver growth, stability, and commercial success. Tap to explore our deep methodologies and specific technical focuses that set us apart from standard service providers.</p>
             </div>
-            <div class="grid-3">
-                <div class="card" style="background-color: white;">
-                    <h3>Project Operations</h3>
-                    <p>Strategic management and growth operations for mobile projects in global markets.</p>
+            <div class="grid-3" style="margin-top: 60px;">
+                <!-- Pillar 1 -->
+                <div class="card reveal" role="button" aria-expanded="false" style="padding: 40px; border: 1px solid #eee; border-radius: 24px; position: relative;">
+                    <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+                    <h3 style="margin: 20px 0 15px; font-size: 1.6rem;">Technical R&D Center</h3>
+                    <p style="color: var(--gray-medium); font-size: 15px; margin-bottom: 20px;">Elite software engineering focusing on extreme scalability, zero-trust security, and innovative cross-platform mobile frameworks for global reach.</p>
+                    <div class="card-expandable">
+                        <ul class="feature-list" style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Cloud-Native Backends:</strong> Full Kubernetes orchestration for global scale, ensuring 99.9% availability and zero-downtime hot-patching capabilities across all economic regions.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Native & Cross-Platform:</strong> High-performance Swift/Kotlin native development paired with heavily optimized Flutter and Unity engines for seamless multi-platform experiences.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Zero-Trust Security:</strong> End-to-end encryption using TLS 1.3 and AES-256 standards, with complete regional data compliance including GDPR, CCPA, and PIPL for absolute safety.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>AI Personalization:</strong> Implementation of custom machine learning models for real-time user profiling, dynamic in-app content delivery, and behavioral predictive modeling to increase engagement.</li>
+                            <li style="margin-bottom: 0; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Low-Latency Architecture:</strong> Proprietary network optimization protocols designed specifically for high-frequency interaction applications and real-time multiplayer gaming environments globally.</li>
+                        </ul>
+                    </div>
+                    <div class="expand-indicator" style="margin-top: 20px; color: var(--primary-color); font-weight: 800;">View Technical Specs →</div>
                 </div>
-                <div class="card" style="background-color: white;">
-                    <h3>Custom R&D</h3>
-                    <p>Tailored research and development services to bring your unique mobile concepts to life.</p>
+                <!-- Pillar 2 -->
+                <div class="card reveal" role="button" aria-expanded="false" style="padding: 40px; border: 1px solid #eee; border-radius: 24px; position: relative;">
+                    <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="5"/></svg></div>
+                    <h3 style="margin: 20px 0 15px; font-size: 1.6rem;">Operations Management</h3>
+                    <p style="color: var(--gray-medium); font-size: 15px; margin-bottom: 20px;">Data-driven lifecycle management, localized User Acquisition (UA), and 24/7 multi-lingual community support ecosystems for sustainable growth.</p>
+                    <div class="card-expandable">
+                        <ul class="feature-list" style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Algorithmic UA:</strong> Advanced programmatic ad-buying systems distributed across North America, Europe, and Asia-Pacific to ensure lowest CPI and highest quality user onboarding.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Churn Mitigation:</strong> Data-centric behavioral analysis combined with automated re-engagement triggers to maximize DAU/MAU ratios and user lifespan through personalized push content.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Cultural Adaptation:</strong> Deep-level localization strategies that go beyond simple translation, adapting game mechanics and app features to resonate with local cultural expectations.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>24/7 Moderation:</strong> Real-time global support and moderation centers covering 10+ major languages, maintaining high user sentiment and platform health around the clock.</li>
+                            <li style="margin-bottom: 0; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>LTV Optimization:</strong> Continuous funnel analysis and A/B testing of every user touchpoint to ensure maximum capital efficiency and lifecycle value for every project in our portfolio.</li>
+                        </ul>
+                    </div>
+                    <div class="expand-indicator" style="margin-top: 20px; color: var(--primary-color); font-weight: 800;">Explore Growth Tools →</div>
                 </div>
-                <div class="card" style="background-color: white;">
-                    <h3>Self-Developed Projects</h3>
-                    <p>Operations of our own innovative mobile products with diverse monetization strategies.</p>
+                <!-- Pillar 3 -->
+                <div class="card reveal" role="button" aria-expanded="false" style="padding: 40px; border: 1px solid #eee; border-radius: 24px; position: relative;">
+                    <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#008060" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
+                    <h3 style="margin: 20px 0 15px; font-size: 1.6rem;">Monetization Hub</h3>
+                    <p style="color: var(--gray-medium); font-size: 15px; margin-bottom: 20px;">Strategic revenue engineering using battle-tested frameworks for subscriptions, virtual items, and global ad mediation logic.</p>
+                    <div class="card-expandable">
+                        <ul class="feature-list" style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Tiered VIP Systems:</strong> Complex recurring subscription billing models with dynamic user privileges and tiered loyalty rewards designed for maximum long-term retention.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Prop Economics:</strong> Balanced virtual item economies with high scarcity value, intricate rarity designs, and sophisticated inflationary controls to ensure market stability and user demand.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Mediation Optimization:</strong> Hybrid programmatic systems that balance IAP revenue with non-intrusive rewarded video frameworks to maximize both ARPPU and ARPDAU without fatigue.</li>
+                            <li style="margin-bottom: 12px; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Payment Compliance:</strong> Seamless global integration with Apple Pay, Google Pay, Stripe, and regional alternative payment methods including automatic tax and exchange handling.</li>
+                            <li style="margin-bottom: 0; font-size: 14px; border-left: 2px solid var(--primary-color); padding-left: 15px;"><strong>Yield Management:</strong> Real-time price elasticity testing and dynamic offer engines that adapt monetization strategies to individual user behavior and global purchasing power.</li>
+                        </ul>
+                    </div>
+                    <div class="expand-indicator" style="margin-top: 20px; color: var(--primary-color); font-weight: 800;">Review Yield Models →</div>
                 </div>
             </div>
+            <div style="text-align: center; margin-top: 60px;">
+                <a href="business.html" class="btn" style="padding: 18px 50px; font-size: 1.1rem;">Full Service Catalog</a>
+            </div>
+        </section>
+
+        <!-- 5. Featured Success Stories (Detailed Metrics) -->
+        <section class="success-spotlight reveal" style="background: var(--gray-bg); padding: 140px 0; border-radius: 60px; margin-top: 80px;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="label">Proven Results</span>
+                    <h2>Featured Success Spotlight</h2>
+                    <p style="max-width: 800px; margin: 20px auto; line-height: 1.7;">We transform complex technical visions into high-performing global digital assets. Our portfolio showcases our ability to deliver results that consistently exceed industry averages in both utility and entertainment sectors. We don't just achieve targets; we set new benchmarks for what is possible in mobile engineering and global growth, empowering our partners to reach their full commercial potential across international borders.</p>
+                </div>
+                <div class="grid-3" style="margin-top: 80px; gap: 50px;">
+                    <!-- Case 1 -->
+                    <div class="card reveal" style="background: white; padding: 50px 40px; border-radius: 32px; box-shadow: 0 4px 30px rgba(0,0,0,0.02); transition: var(--transition-base);">
+                        <span style="font-size: 11px; font-weight: 800; color: var(--primary-color); text-transform: uppercase; letter-spacing: 2px;">Productivity Suite</span>
+                        <h4 style="margin: 15px 0 25px; font-size: 1.5rem;">Global Productivity Ecosystem</h4>
+                        <p style="font-size: 15px; color: var(--gray-medium); line-height: 1.7;"><strong>The Challenge:</strong> Scaling a complex utility toolkit to 150+ regions with strict data residency laws and high interaction latency issues across varying network conditions.</p>
+                        <p style="font-size: 15px; color: var(--gray-medium); line-height: 1.7; margin-bottom: 30px;"><strong>The Solution:</strong> Deployed a multi-region decentralized serverless infrastructure with real-time sync and localized subscription tiers for diverse economic purchasing power.</p>
+                        <div style="border-top: 1px solid #eee; padding-top: 25px; display: flex; justify-content: space-between; align-items: flex-end;">
+                            <div>
+                                <div style="font-weight: 900; font-size: 2.2rem; color: var(--black); line-height: 1;">10M+</div>
+                                <span style="font-size: 12px; text-transform: uppercase; color: var(--primary-color); font-weight: 700; letter-spacing: 1px;">Global Downloads</span>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-weight: 900; font-size: 1.5rem; color: var(--black); line-height: 1;">4.8/5</div>
+                                <span style="font-size: 10px; text-transform: uppercase; color: var(--gray-medium); font-weight: 700;">User Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Case 2 -->
+                    <div class="card reveal" style="background: white; padding: 50px 40px; border-radius: 32px; box-shadow: 0 4px 30px rgba(0,0,0,0.02); transition: var(--transition-base);">
+                        <span style="font-size: 11px; font-weight: 800; color: var(--primary-color); text-transform: uppercase; letter-spacing: 2px;">Mobile Gaming</span>
+                        <h4 style="margin: 15px 0 25px; font-size: 1.5rem;">Immersive RPG Franchise</h4>
+                        <p style="font-size: 15px; color: var(--gray-medium); line-height: 1.7;"><strong>The Challenge:</strong> Balancing an aggressive IAP monetization model without compromising F2P user session length or overall player community sentiment during rapid expansion.</p>
+                        <p style="font-size: 15px; color: var(--gray-medium); line-height: 1.7; margin-bottom: 30px;"><strong>The Solution:</strong> Custom hybrid mediation framework combined with virtual economy design using predictive LTV modeling for perfect ad-revenue balancing.</p>
+                        <div style="border-top: 1px solid #eee; padding-top: 25px; display: flex; justify-content: space-between; align-items: flex-end;">
+                            <div>
+                                <div style="font-weight: 900; font-size: 2.2rem; color: var(--black); line-height: 1;">$2M+</div>
+                                <span style="font-size: 12px; text-transform: uppercase; color: var(--primary-color); font-weight: 700; letter-spacing: 1px;">Monthly Rev. Vol.</span>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-weight: 900; font-size: 1.5rem; color: var(--black); line-height: 1;">150+</div>
+                                <span style="font-size: 10px; text-transform: uppercase; color: var(--gray-medium); font-weight: 700;">Live Regions</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Case 3 -->
+                    <div class="card reveal" style="background: white; padding: 50px 40px; border-radius: 32px; box-shadow: 0 4px 30px rgba(0,0,0,0.02); transition: var(--transition-base);">
+                        <span style="font-size: 11px; font-weight: 800; color: var(--primary-color); text-transform: uppercase; letter-spacing: 2px;">Enterprise Cloud</span>
+                        <h4 style="margin: 15px 0 25px; font-size: 1.5rem;">Secure Infrastructure Backbone</h4>
+                        <p style="font-size: 15px; color: var(--gray-medium); line-height: 1.7;"><strong>The Challenge:</strong> Managing millions of concurrent requests for a Fortune 500 partner under strict zero-trust security and data privacy mandates across Europe and Asia.</p>
+                        <p style="font-size: 15px; color: var(--gray-medium); line-height: 1.7; margin-bottom: 30px;"><strong>The Solution:</strong> Real-time database orchestration nodes combined with ex-Microsoft security auditing frameworks and highly scalable Kubernetes clusters.</p>
+                        <div style="border-top: 1px solid #eee; padding-top: 25px; display: flex; justify-content: space-between; align-items: flex-end;">
+                            <div>
+                                <div style="font-weight: 900; font-size: 2.2rem; color: var(--black); line-height: 1;">99.99%</div>
+                                <span style="font-size: 12px; text-transform: uppercase; color: var(--primary-color); font-weight: 700; letter-spacing: 1px;">System Uptime</span>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-weight: 900; font-size: 1.5rem; color: var(--black); line-height: 1;">MS+</div>
+                                <span style="font-size: 10px; text-transform: uppercase; color: var(--gray-medium); font-weight: 700;">Response Speed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 80px;">
+                    <a href="cases.html" class="btn" style="padding: 20px 60px; font-size: 1.2rem; border-radius: 50px; background: var(--black); color: white;">Explore Full Case Studies</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Strategic Collaboration Journey -->
+        <section class="collaboration container reveal" style="padding: 140px 0;">
+            <div class="grid-2" style="align-items: center; gap: 120px;">
+                <div class="col-text">
+                    <span class="label">The Partnership Journey</span>
+                    <h2 style="font-size: 3.5rem; line-height: 1; letter-spacing: -2px;">How We Transform Digital Visions.</h2>
+                    <p class="text-secondary" style="font-size: 1.25rem; margin-top: 40px; line-height: 1.8;">Our partnership model is built for long-term scalability and radical success. We use a transparent, outcome-oriented workflow that ensures your project evolves from an initial vision or raw concept into a dominant global digital asset. We provide the technical backbone and the operational engine, while maintaining constant communication through dedicated strategic war-rooms. Every milestone is defined by objective data, and every success is built on shared goals. Whether you need full-cycle agency operations or bespoke high-stakes R&D, our process is tailored to minimize risk and maximize global market penetration from day one. We bridge the gap between technical potential and commercial reality through deep collaboration and engineering excellence, ensuring that your digital footprint remains secure and scalable across all platforms.</p>
+
+                    <div class="process-list" style="margin-top: 60px;">
+                        <div class="reveal" style="display: flex; gap: 30px; margin-bottom: 50px; align-items: flex-start;">
+                            <div style="width: 60px; height: 60px; background: #f0f4f2; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-weight: 900; color: var(--primary-color); flex-shrink: 0; border: 1px solid #e1e3e5; font-size: 1.5rem;">01</div>
+                            <div>
+                                <h4 style="font-size: 1.4rem;">Strategic Discovery & Technical Audit</h4>
+                                <p style="color: var(--gray-medium); font-size: 15px; margin-top: 10px; line-height: 1.6;">We begin with intensive workshops to audit your current architecture, evaluate global market fit, and define clear ROI targets. Our experts identify regional hurdles and select the optimal technical stack for global distribution across target territories, ensuring a zero-waste launch strategy that is ready for immediate scale.</p>
+                            </div>
+                        </div>
+                        <div class="reveal" style="display: flex; gap: 30px; margin-bottom: 50px; align-items: flex-start;">
+                            <div style="width: 60px; height: 60px; background: #f0f4f2; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-weight: 900; color: var(--primary-color); flex-shrink: 0; border: 1px solid #e1e3e5; font-size: 1.5rem;">02</div>
+                            <div>
+                                <h4 style="font-size: 1.4rem;">Elite Execution & R&D Sprints</h4>
+                                <p style="color: var(--gray-medium); font-size: 15px; margin-top: 10px; line-height: 1.6;">Our architects lead rapid, agile development sprints, building secure, high-performance, and compliant infrastructures. We focus on low-latency code and scalable backends that can handle massive global user influxes seamlessly with zero downtime, maintaining technical superiority throughout the entire build process.</p>
+                            </div>
+                        </div>
+                        <div class="reveal" style="display: flex; gap: 30px; align-items: flex-start;">
+                            <div style="width: 60px; height: 60px; background: #f0f4f2; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-weight: 900; color: var(--primary-color); flex-shrink: 0; border: 1px solid #e1e3e5; font-size: 1.5rem;">03</div>
+                            <div>
+                                <h4 style="font-size: 1.4rem;">Global Scale & Revenue Optimization</h4>
+                                <p style="color: var(--gray-medium); font-size: 15px; margin-top: 10px; line-height: 1.6;">Full-scale operational deployment including multi-channel UA campaigns, real-time data science for monetization, and 24/7 multi-lingual community moderation. We continuously monitor KPIs to refine user journeys and maximize yield across North America, Europe, and Asia-Pacific regions, ensuring sustained market dominance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn" style="margin-top: 60px; border-radius: 50px; padding: 20px 60px; font-weight: 800; font-size: 1.1rem;">Begin Your Discovery Call Today</a>
+                </div>
+                <div class="col-visual reveal" style="background: var(--gray-bg); border-radius: 48px; padding: 100px 60px; text-align: center; border: 1px solid #eee; box-shadow: inset 0 2px 40px rgba(0,0,0,0.02);">
+                    <svg width="240" height="240" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="0.8" style="opacity: 0.6; margin-bottom: 50px;"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+                    <h3 style="font-size: 3rem; font-weight: 900; letter-spacing: -2px;">Shared Global Growth.</h3>
+                    <p style="color: var(--gray-medium); margin: 20px auto; max-width: 400px; line-height: 1.6;">Your project vision meets our elite engineering and global operational engine to create a market-leading digital powerhouse on an international scale with sustainable commercial success and technical longevity.</p>
+                    <div style="display: flex; justify-content: center; gap: 15px; margin-top: 40px;">
+                        <span class="market-tag">Security</span>
+                        <span class="market-tag">Scalability</span>
+                        <span class="market-tag">Yield</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Monetization Mastery (Bullet Points & Grid) -->
+        <section class="monetization container reveal" style="background: var(--footer-bg); color: white; border-radius: 40px; padding: 120px 5vw; margin-top: 100px;">
+            <div class="grid-2" style="align-items: center; gap: 100px;">
+                <div>
+                    <span class="label" style="color: var(--primary-color);">Commercial Intelligence</span>
+                    <h2 style="color: white; font-size: 3.5rem; letter-spacing: -2px; line-height: 1;">Maximizing Your Global Yield.</h2>
+                    <p style="color: #b0c4c3; font-size: 1.25rem; margin-top: 30px; line-height: 1.8;">Our monetization frameworks are engineered to be dynamic, non-intrusive, and highly efficient across multiple economic zones. We battle-test every model within our own proprietary portfolio of applications and games before deploying them to our partner ecosystem. This unique "Laboratory Approach" allows us to offer revenue strategies that are grounded in real-world performance, balancing user satisfaction with maximized long-term value (LTV). From tiered subscription billing to sophisticated virtual prop economies and hybrid mediation, our systems are built to adapt to the specific purchasing power and habits of global users in 150+ regions, ensuring that every interaction contributes to the project's bottom line and provides a seamless commerce experience for the user without causing platform fatigue.</p>
+                    <a href="contact.html" class="btn" style="margin-top: 40px; background: var(--primary-color); border: none; padding: 18px 50px;">Request a Monetization Audit</a>
+                </div>
+                <div class="monetization-details">
+                    <ul class="feature-list" style="list-style: none; padding: 0;">
+                        <li class="reveal" style="margin-bottom: 35px; border-left: 4px solid var(--primary-color); padding-left: 30px;">
+                            <strong style="font-size: 1.4rem; color: white; display: block; margin-bottom: 10px;">Dynamic Subscription & VIP Ecosystems</strong>
+                            <p style="color: #95acab; font-size: 15px; line-height: 1.6;">We implement high-retention recurring revenue models using dynamic tiered privileges. Our systems handle multi-currency billing, localized pricing strategies, and algorithmic churn-prevention logic automatically across global stores, maximizing consistent and predictable cash flow for our partners.</p>
+                        </li>
+                        <li class="reveal" style="margin-bottom: 35px; border-left: 4px solid var(--primary-color); padding-left: 30px;">
+                            <strong style="font-size: 1.4rem; color: white; display: block; margin-bottom: 10px;">Intricate Virtual Prop Economics</strong>
+                            <p style="color: #95acab; font-size: 15px; line-height: 1.6;">Our economy designers create balanced consumable and vanity item frameworks. We use scarcity-driven mechanics, rarity distributions, and anti-fraud guardrails to protect your project's ecosystem health, market stability, and overall brand value in the long term, preventing economic collapse within the app.</p>
+                        </li>
+                        <li class="reveal" style="margin-bottom: 0; border-left: 4px solid var(--primary-color); padding-left: 30px;">
+                            <strong style="font-size: 1.4rem; color: white; display: block; margin-bottom: 10px;">Hybrid Programmatic Mediation</strong>
+                            <p style="color: #95acab; font-size: 15px; line-height: 1.6;">We maximize ad revenue through real-time programmatic bidding (Header Bidding) while ensuring that rewarded video and native placements do not degrade user retention or compromise the core product experience, ensuring a perfect balance between UX and profit across all platforms and operating systems.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Final High-Trust CTA Section -->
+        <section class="cta container reveal" style="text-align: center; padding: 180px 0; border-top: 1px solid #eee;">
+            <h2 style="font-size: 4.8rem; letter-spacing: -4px; line-height: 0.9; margin-bottom: 40px;">Ready to Scale your<span>Global Vision?</span></h2>
+            <p class="reveal" style="font-size: 1.5rem; color: var(--gray-medium); margin: 0 auto 60px; max-width: 850px; line-height: 1.7;">Join forces with the technology powerhouse that bridges elite Silicon Valley engineering and global market growth. We provide the expertise, the infrastructure, and the operational engine required to turn your digital vision into a worldwide success story. Let's discuss your project's potential in a personalized, 1-on-1 strategy session with our senior architects and growth experts. Your journey towards global mobile excellence and unprecedented market reach begins with a single conversation. We are ready when you are.</p>
+            <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+                <a href="contact.html" class="btn reveal" style="padding: 26px 90px; font-size: 1.3rem; border-radius: 50px; box-shadow: 0 20px 40px rgba(0,128,96,0.3); font-weight: 900; text-transform: uppercase; letter-spacing: 1px;">Submit Strategic Inquiry</a>
+                <a href="mailto:liunian@zhishenglc.com" class="btn-outline reveal" style="padding: 26px 70px; font-size: 1.3rem; border-radius: 50px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;">Direct Email Access</a>
+            </div>
+            <p class="reveal" style="margin-top: 50px; font-size: 15px; color: var(--gray-medium); font-weight: 500;">Typical strategic response time: <strong style="color: var(--primary-color);">12 Business Hours</strong>. Your data and intellectual property are protected under our global legal and privacy framework to ensure absolute confidentiality and trust.</p>
         </section>
     </main>
 
@@ -99,30 +392,34 @@
             <div class="footer-top">
                 <div class="footer-brand">
                     <div class="logo">
-                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="fill: white;"><path d="M50 5L10 25V75L50 95L90 75V25L50 5Z"/></svg>
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="fill: white;" aria-hidden="true"><path d="M50 5L10 25V75L50 95L90 75V25L50 5Z"/></svg>
                         <span style="color: white; font-weight: 800; font-size: 20px; margin-left: 10px;">ZHISHENG</span>
                     </div>
-                    <p>Global mobile app and game services team. Specialized in R&D, operations, and business interaction.</p>
+                    <p style="margin-top: 20px; color: #b0c4c3; line-height: 1.7; font-size: 14px;">Elite Global Mobile App & Game Service Provider. Founded and managed by veterans from Microsoft, Tesla, and Oracle. Built on engineering excellence, driven by localized growth strategies. We empower businesses to conquer global markets through technology, innovation, and radical data transparency. Beijing Zhishenglongcheng Information Technology Co., Ltd.</p>
                 </div>
                 <div class="footer-col">
-                    <h4>Company</h4>
+                    <h4>The Ecosystem</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="business.html">Services</a></li>
-                        <li><a href="team.html">Our Team</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Company Homepage</a></li>
+                        <li><a href="business.html">Services & Models</a></li>
+                        <li><a href="cases.html">Global Portfolio</a></li>
+                        <li><a href="team.html">The Elite Team</a></li>
+                        <li><a href="contact.html">Contact Experts</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Support</h4>
+                    <h4>Strategic Docking</h4>
                     <ul>
+                        <li><a href="mailto:liunian@zhishenglc.com">Business Strategy</a></li>
                         <li><a href="mailto:support@zhishenglc.com">Technical Support</a></li>
-                        <li><a href="mailto:liunian@zhishenglc.com">Business Inquiry</a></li>
+                        <li><a href="https://www.linkedin.com/company/zhishenglc" target="_blank">LinkedIn Profile</a></li>
+                        <li><a href="cases.html">Success Frameworks</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Address</h4>
-                    <p style="font-size: 14px; color: #95acab; line-height: 1.4;">4B06, 4/F, Bldg C3, World Flower Holiday Plaza, Jiujingzhuang Road, Jiugong Town, (Daxing), Beijing ETDZ</p>
+                    <h4>Global HQ</h4>
+                    <p style="font-size: 13px; color: #b0c4c3; line-height: 1.8;">4B06, 4/F, Bldg C3, World Flower Holiday Plaza, Jiujingzhuang Road, Jiugong Town, Daxing District, Beijing, China</p>
+                    <p style="font-size: 13px; color: var(--primary-color); margin-top: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Global Reach: 150+ Regions</p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -134,6 +431,7 @@
             </div>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
